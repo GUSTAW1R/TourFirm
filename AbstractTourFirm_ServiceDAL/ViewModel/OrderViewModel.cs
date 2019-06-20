@@ -10,7 +10,7 @@ namespace AbstractTourFirm_ServiceDAL.ViewModel
     {
         public int Id { get; set; }
         public int CustomerId { get; set; }
-        public string CustomerFIO { get; set; }
+        public string CustomerName { get; set; }
         public int TravelId { get; set; }
         public string TravelName { get; set; }
         public int Count { get; set; }
