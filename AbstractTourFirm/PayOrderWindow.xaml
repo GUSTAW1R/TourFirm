@@ -1,0 +1,15 @@
+﻿<Window x:Class="AbstractTourFirm.PayOrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AbstractTourFirm"
+        mc:Ignorable="d"
+        Title="PayOrderWindow" Height="269.436" Width="850">
+    <Grid Loaded="Grid_Loaded">
+        <DataGrid x:Name="dataGridView" HorizontalAlignment="Left" Height="124" Margin="10,10,0,0" VerticalAlignment="Top" Width="822"/>
+        <Button x:Name="buttonPayOrder" Content="Оплатить" HorizontalAlignment="Left" Height="42" Margin="21,169,0,0" VerticalAlignment="Top" Width="188" Click="ButtonPayOrder_Click"/>
+        <Button x:Name="buttonTakeCredit" Content="В кредит" HorizontalAlignment="Left" Height="42" Margin="333,169,0,0" VerticalAlignment="Top" Width="188" Click="ButtonTakeCredit_Click"/>
+        <Button x:Name="buttonPrintPDF" Content="Чек в PDF" HorizontalAlignment="Left" Height="42" Margin="644,169,0,0" VerticalAlignment="Top" Width="188" Click="ButtonPrintPDF_Click"/>
+    </Grid>
+</Window>

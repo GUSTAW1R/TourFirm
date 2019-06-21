@@ -1,0 +1,18 @@
+﻿<Window x:Class="AbstractTourFirm.SingUpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AbstractTourFirm"
+        mc:Ignorable="d"
+        Title="SingUpWindow" Height="350" Width="500">
+    <Grid Loaded="Grid_Loaded">
+        <TextBox x:Name="textBoxLogin" HorizontalAlignment="Left" Height="33" Margin="143,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280"/>
+        <TextBox x:Name="textBoxPass" HorizontalAlignment="Left" Height="33" Margin="143,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280"/>
+        <Label Content="ЛОГИН:" HorizontalAlignment="Left" Height="33" Margin="69,66,0,0" VerticalAlignment="Top" Width="69" RenderTransformOrigin="1.606,0.602" FontWeight="Bold" FontSize="14"/>
+        <Label Content="ПАРОЛЬ:" HorizontalAlignment="Left" Height="33" Margin="56,153,0,0" VerticalAlignment="Top" Width="82" RenderTransformOrigin="1.606,0.602" FontWeight="Bold" FontSize="14"/>
+        <Button x:Name="buttonSingIn" Content="ЗАРЕГЕСТРИРОВАТЬСЯ" HorizontalAlignment="Left" Height="48" Margin="69,238,0,0" VerticalAlignment="Top" Width="188" Click="ButtonSingIn_Click"/>
+        <Button x:Name="buttonSingUp" Content="ВОЙТИ" HorizontalAlignment="Left" Height="48" Margin="324,238,0,0" VerticalAlignment="Top" Width="99" Click="ButtonSingUp_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="AbstractTourFirm.TourList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AbstractTourFirm"
+        mc:Ignorable="d"
+        Title="TourList" Height="500" Width="545.925">
+    <Grid>
+        <DataGrid x:Name="dataGridView" HorizontalAlignment="Left" Height="449" Margin="10,10,0,0" VerticalAlignment="Top" Width="361"/>
+        <Button x:Name="buttonCreateTours" Content="Сформировать туры" HorizontalAlignment="Left" Height="54" Margin="392,10,0,0" VerticalAlignment="Top" Width="136" Click="ButtonCreateTours_Click"/>
+        <Button x:Name="buttonDeleteTour" Content="Удалить тур из списка" HorizontalAlignment="Left" Height="54" Margin="392,221,0,0" VerticalAlignment="Top" Width="136" Click="ButtonDeleteTour_Click"/>
+        <Button x:Name="buttonUpd" Content="Обновить список" HorizontalAlignment="Left" Height="54" Margin="392,405,0,0" VerticalAlignment="Top" Width="136" Click="ButtonUpd_Click"/>
+
+    </Grid>
+</Window>

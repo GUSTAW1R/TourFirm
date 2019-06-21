@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AbstractTourFirm"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="500" Width="900">
     <Grid>
-        
+        <DataGrid x:Name="dataGridView" HorizontalAlignment="Left" Height="415" Margin="10,44,0,0" VerticalAlignment="Top" Width="686"/>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="34" Margin="10,5,0,0" VerticalAlignment="Top" Width="170">
+            <MenuItem Header="Личный кабинет" Height="32" Width="170">
+                <MenuItem Header="Профиль" HorizontalAlignment="Left" Height="28" Width="145" Margin="0,0,-21,0" Click="профильToolStripMenuItem_Click"/>
+                <MenuItem Header="Туры" HorizontalAlignment="Left" Height="24" Width="158" Margin="0,0,-18,0" Click="турыToolStripMenuItem_Click"/>
+                <MenuItem Header="Путешествия" HorizontalAlignment="Left" Height="28" Width="165" Margin="0,0,-21,0" Click="путешествияToolStripMenuItem_Click"/>
+            </MenuItem>
+        </Menu>
+        <Button x:Name="buttonCreateOrder" Content="СОЗДАТЬ ЗАКАЗ" HorizontalAlignment="Left" Height="57" Margin="724,44,0,0" VerticalAlignment="Top" Width="158" Click="ButtonCreateOrder_Click"/>
+        <Button x:Name="buttonConfirmOrder" Content="ПОДТВЕРДИТЬ ЗАКАЗ" HorizontalAlignment="Left" Height="57" Margin="724,224,0,0" VerticalAlignment="Top" Width="158" Click="ButtonConfirmOrder_Click"/>
+        <Button x:Name="buttonPay" Content="ОПЛАТИТЬ ЗАКАЗ" HorizontalAlignment="Left" Height="57" Margin="724,402,0,0" VerticalAlignment="Top" Width="158" Click="ButtonPay_Click"/>
+
     </Grid>
 </Window>
